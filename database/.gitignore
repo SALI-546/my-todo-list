@@ -1,0 +1,64 @@
+*.sqlite*
+# Ignorer les répertoires du système Laravel qui contiennent des fichiers générés
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache/data
+/storage/logs
+/bootstrap/cache
+
+# Ignorer les fichiers de configuration sensibles
+.env
+.env.*.local
+Homestead.yaml
+Homestead.json
+.vscode
+
+# Ignorer les fichiers de log et de débogage
+*.log
+*.cache
+*.env.backup
+*.phpunit.result.cache
+
+# Ignorer les fichiers de test générés par PHPUnit
+.phpunit.result.cache
+
+# Ignorer les fichiers de configuration spécifiques aux IDEs/éditeurs
+.idea/
+*.sublime*
+*.log
+*.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers spécifiques à Vercel
+.vercel
+
+# Ignorer le fichier npm lock si vous utilisez Yarn
+# package-lock.json
+
+# Ignorer les fichiers générés par npm ou Yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorer le fichier composer.lock
+composer.lock
+
+# Ignorer les fichiers de compilation front-end
+/public/mix-manifest.json
+/public/css/app.css
+/public/js/app.js
+
+# Ignorer les fichiers de configuration de Docker
+docker-compose.yml
+.dockerignore
+
+# Ignorer les fichiers de Tailwind CSS
+tailwind.config.js
+
+# Ignorer les fichiers de Webpack
+webpack.mix.js
